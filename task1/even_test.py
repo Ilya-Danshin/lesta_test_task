@@ -22,7 +22,7 @@ class TestIsEven(unittest.TestCase):
         self.assertEqual(self.isEven.isEvenBySubtraction(2), True)
         self.assertEqual(self.isEven.isEvenBySubtraction(7), False)
 
-    def test_isEvenBySubstraction_float(self):
+    def test_isEvenBySubtraction_float(self):
         self.assertEqual(self.isEven.isEvenBySubtraction(2.0), True)
         self.assertEqual(self.isEven.isEvenBySubtraction(7.0), False)
 
