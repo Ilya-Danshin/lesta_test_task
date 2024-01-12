@@ -1,4 +1,3 @@
-import math
 import unittest
 from task2.ring_buffer import RingBufferList, RingBufferArray
 
